@@ -1,0 +1,289 @@
+@font-face {
+	font-family: '思源宋体 CN SemiBold';
+	font-style: normal;
+	src: url('font\\SourceHanCN-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN Heavy';
+	font-style: normal;
+	src: url('font\\SourceHanCN-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN Bold';
+	font-style: normal;
+	src: url('font\\SourceHanCN-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN Light';
+	font-style: normal;
+	src: url('font\\SourceHanCN-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN Medium';
+	font-style: normal;
+	src: url('font\\SourceHanCN-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN ExtraLight';
+	font-style: normal;
+	src: url('font\\SourceHanCN-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: '思源宋体 CN Regular';
+	font-style: normal;
+	src: url('font\\SourceHanCN-Regular.woff') format('woff');
+}
+
+.topbar{
+display: flex;
+position: fixed;
+align-items: center;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 64px;
+background: #FFF0F5;
+color: #D3D3D3;
+filter: alpha(opacity=76);
+-moz-opacity:0.76;
+opacity:0.76;
+}
+
+.bombar{
+bottom:0;
+display: flex;
+align-items: center;
+left: 0px;
+width: 100%;
+height: 160px;
+color: #D3D3D3;
+background: #242424;
+}
+
+.logoimg{
+height:40px;
+}
+
+.toplogo{
+margin-left:26px;
+}
+
+.toptd{
+margin-left:72px;
+}
+
+.topphr{
+width:20%;
+}
+
+.topphr1{
+width:20px;
+}
+
+.bomphr{
+width:52px;
+}
+
+
+.coverphr{
+height:200px;
+}
+
+.toptext{
+color:#000080;
+font-size:20px;
+text-decoration:none;
+font-family:思源宋体 CN SemiBold;
+}
+
+.main{
+width:100%;
+height:100%;
+}
+
+.main_nt{
+width:100%;
+height:100%;
+margin-top:72px;
+}
+
+.cover{
+width:100%;
+text-align:center;
+background:url(../img/bg.png) no-repeat;
+height:760px;
+}
+
+.cover_about{
+width:100%;
+text-align:center;
+background:url(../img/topimg_1.png) no-repeat;
+height:200px;
+}
+
+.stitle{
+color:#000080;
+font-family:思源宋体 CN Heavy;
+font-size:46px;
+}
+
+.ltitle{
+color:#000080;
+font-family:思源宋体 CN SemiBold;
+font-size:36px;
+line-height:10px
+}
+
+.sltitle
+{
+color:#4169E1;
+font-family:思源宋体 CN Light;
+font-size:18px;
+line-height:10px
+}
+
+.qqlink
+{
+color:#000080;
+font-family:思源宋体 CN Light;
+font-size:20px;
+}
+
+.stit_div{
+width:100%;
+text-align:center;
+}
+
+.stphr{
+height:64px;
+}
+
+.verphr{
+height:36px;
+}
+
+.cover_td{
+width:100%;
+}
+
+.cover_text{
+color:#F5F5F5;
+font-size:52px;
+font-family:思源宋体 CN Heavy;
+}
+
+.cover_title{
+width:100%;
+text-align:center;
+background: #303030;
+height:72px;
+}
+
+.title{
+color:#4169E1;
+font-size:36px;
+}
+
+.bomlogo{
+width:76px;
+}
+
+.copr{
+color: #A0A0A0;
+}
+
+.bomif{
+position: absolute;
+right:36px;
+text-align:right;
+}
+
+.ghlogo{
+display:flex;
+align-items: center;
+text-align:right;
+}
+
+.bomlink{
+text-decoration:none;
+color:#B5B5B5;
+}
+
+.navitab{
+text-align:center;
+}
+
+.topslink{
+color:#4169E1;
+font-family:思源宋体 CN Light;
+font-size:18px;
+}
+
+.topslink_c{
+color:#000080;
+font-family:思源宋体 CN SemiBold;
+font-size:20px;
+}
+
+.talkbox{
+}
+
+.talktype{
+background:#6A5ACD;
+color:#FFFFFF;
+height:32px;
+width:140px;
+font-family:思源宋体 CN SemiBold;
+font-size:20px;
+}
+
+.tb_head{
+display: flex;
+font-family:思源宋体 CN SemiBold;
+font-size:20px;
+color:#000080;
+}
+
+.tb_con{
+display: flex;
+font-family:思源宋体 CN Light;
+font-size:18px;
+color:#3C3C3C;
+line-height:56px
+}
+
+.coline{
+width:100%;
+height:1px;
+background:#000080;
+}
+
+.imgbox{
+display: flex;
+}
+
+.ib_t{
+display: flex;
+font-family:思源宋体 CN SemiBold;
+font-size:36px;
+color:#000080;
+}
+
+.ib_con{
+display: flex;
+font-family:思源宋体 CN Light;
+font-size:18px;
+color:#3C3C3C;
+}
+
+.ibhead{
+font-family:思源宋体 CN SemiBold;
+font-size:20px;
+color:#000080;
+}
