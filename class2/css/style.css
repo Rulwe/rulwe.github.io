@@ -55,6 +55,21 @@ filter: alpha(opacity=76);
 opacity:0.76;
 }
 
+.topbar_m{
+display: flex;
+position: fixed;
+align-items: center;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100px;
+background: #FFF0F5;
+color: #D3D3D3;
+filter: alpha(opacity=76);
+-moz-opacity:0.76;
+opacity:0.76;
+}
+
 .bombar{
 bottom:0;
 display: flex;
@@ -68,6 +83,10 @@ background: #242424;
 
 .logoimg{
 height:40px;
+}
+
+.logoimg_m{
+height:60px;
 }
 
 .toplogo{
@@ -93,6 +112,10 @@ width:52px;
 
 .coverphr{
 height:200px;
+}
+
+.coverphr_m{
+height:360px;
 }
 
 .toptext{
@@ -268,6 +291,10 @@ background:#000080;
 display: flex;
 }
 
+.picbox{
+
+}
+
 .ib_t{
 display: flex;
 font-family:思源宋体 CN SemiBold;
@@ -286,4 +313,9 @@ color:#3C3C3C;
 font-family:思源宋体 CN SemiBold;
 font-size:20px;
 color:#000080;
+}
+.topmenu_m{
+display: flex;
+position: absolute;
+right: 20px;
 }
