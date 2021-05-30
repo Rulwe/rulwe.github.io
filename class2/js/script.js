@@ -46,3 +46,51 @@ var system = {
         } 
 	
 }
+
+function runapp() {
+var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+var userBrowser = 0;
+var isOpera = userAgent.indexOf("Opera") > -1;
+
+var sleep = function(time) {
+    var startTime = new Date().getTime() + parseInt(time, 10);
+    while(new Date().getTime() < startTime) {}
+};
+
+//判断是否Opera浏览器
+if (isOpera) {
+	userBrowser = 1;
+};
+//判断是否Firefox浏览器
+if (userAgent.indexOf("Firefox") > -1) {
+	userBrowser = 2;
+} 
+//判断是否Chrome浏览器
+if (userAgent.indexOf("Chrome") > -1){
+	userBrowser = 3;
+}
+//判断是否Safari浏览器
+if (userAgent.indexOf("Safari") > -1) {
+	userBrowser = 4;
+}
+//判断是否IE浏览器
+if (!!window.ActiveXObject || "ActiveXObject" in window) {
+	userBrowser = 0;
+}
+
+if (userBrowser == 0) {
+    alert("启动失败!IE浏览器暂无法使用此网络应用程序。点击确定继续。");
+window.location.href = "index.html"; 
+}
+else{
+window.location.href = "app\\index.html"; 
+}
+}
+
+function openNav() {
+document.getElementById("sidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("sidenav").style.width = "0";
+}
