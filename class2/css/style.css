@@ -40,6 +40,11 @@
 	src: url('font\\SourceHanCN-Regular.woff') format('woff');
 }
 
+#main {
+transition:margin-left:0.5s;
+padding:16px;
+}
+
 .topbar{
 display: flex;
 position: fixed;
@@ -318,4 +323,59 @@ color:#000080;
 display: flex;
 position: absolute;
 right: 20px;
+}
+
+.loadt{
+color:#000080;
+font-size:20px;
+text-decoration:none;
+line-height:10px;
+}
+
+
+.loadst{
+color:#3C3C3C;
+font-size:14px;
+text-decoration:none;
+line-height:10px;
+}
+
+.loaddiv{
+position: absolute;
+right:0px;
+left:0px;
+text-align:center;
+}
+
+.sidenav {
+height:100%;
+width:0px;
+position:fixed;
+z-index:1;
+top:0;
+left:0;
+background-color:#111;
+overflow-x:hidden;
+transition:0.5s;
+padding-top:60px;
+white-space:nowrap;
+}
+
+.sidenav a{
+padding:8px 8px 8px 32px;
+left:20px;
+text-decoration:none;
+font-size:26px;
+color:#818181;
+display:block;
+transition:0.3s;
+}
+
+.sidenav .closebtn {
+position:absolute;
+top:0px;
+right26px;
+font-size:52px;
+margin-left:52px;
+overflow:hidden;
 }
