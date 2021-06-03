@@ -45,6 +45,18 @@ transition:margin-left:0.5s;
 padding:16px;
 }
 
+.background{
+position: absolute;
+left:0;
+right:0;
+top:0;
+bottom:0;
+}
+
+.bgimg{
+width:100%;
+}
+
 .topbar{
 display: flex;
 position: fixed;
@@ -120,7 +132,7 @@ height:200px;
 }
 
 .coverphr_m{
-height:360px;
+height:1000px;
 }
 
 .toptext{
@@ -143,9 +155,33 @@ margin-top:72px;
 
 .cover{
 width:100%;
+background-position: 0% 0%;
 text-align:center;
-background:url(../img/bg.png) no-repeat;
 height:760px;
+}
+
+.cover_m{
+width:100%;
+background-position: 0% 0%;
+text-align:center;
+height:2000px;
+}
+
+#web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
 }
 
 .cover_about{
@@ -353,7 +389,7 @@ width:0px;
 position:fixed;
 z-index:1;
 top:0;
-left:0;
+right:0;
 background-color:#111;
 overflow-x:hidden;
 transition:0.5s;
@@ -363,9 +399,9 @@ white-space:nowrap;
 
 .sidenav a{
 padding:8px 8px 8px 32px;
-left:20px;
+left:24px;
 text-decoration:none;
-font-size:26px;
+font-size:32px;
 color:#818181;
 display:block;
 transition:0.3s;
@@ -374,8 +410,12 @@ transition:0.3s;
 .sidenav .closebtn {
 position:absolute;
 top:0px;
-right26px;
+right:36px;
 font-size:52px;
-margin-left:52px;
+margin-left:56px;
 overflow:hidden;
+}
+
+.btmenu{
+height:76px;
 }
